@@ -2,7 +2,7 @@ from os import path
 
 import setuptools
 
-install_requires = ["bip-utils", "shamir-mnemonic", "click"]
+install_requires = ["bip-utils", "shamir-mnemonic", "click<8"]
 
 test_requires = ["pytest", "pytest-cov", "pytest-mock"]
 
